@@ -1,0 +1,416 @@
+@media (max-width:1006px) {
+
+    .city-image {
+        width: 155px;
+    }
+
+    .city-text {
+        width: 155px;
+    }
+
+    .city-name {
+        font-size: 16px;
+    }
+
+
+    .feature-grid-child {
+        width: 200px;
+    }
+
+    .inner-offer {
+        width: 200px;
+    }
+
+    .city-button {
+
+        padding: 5px;
+        font-size: 7px;
+    }
+
+    .box-sizing li {
+        font-size: 13px;
+    }
+
+    .coming-soon-cities {
+        max-width: 200px;
+
+    }
+
+    .coming-soon-cities-img {
+        max-width: 100px;
+        min-height: 100px;
+        margin-left: 50px;
+    }
+
+    .coming-soon-cities-name {
+        width: 100px;
+    }
+
+    #featured {
+        max-width: 60%;
+        max-height: 250px;
+    }
+
+    #slide-wrapper {
+        max-width: 600px;
+        min-height: 140px;
+    }
+
+    .contact-input {
+        display: block;
+        min-width: 250px;
+        max-height: 50px;
+        outline: none;
+    }
+
+    .contact-button {
+        width: 250px;
+        height: 40px;
+    }
+
+    .svg-about {
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (max-width:822px) {
+    .svg-about {
+        margin-top: 30px;
+    }
+
+    .bi-cart-dash {
+        width: 60px;
+        height: 60px;
+    }
+
+    .main-about-grid p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:714px) {
+    .svg-about {
+        margin-top: 30px;
+
+    }
+
+    .main-about-grid p {
+        font-size: 12px;
+    }
+
+    .bi-cart-dash {
+        width: 70px;
+        height: 70px;
+    }
+
+    .intro-child {
+        width: 90%;
+    }
+
+    .feature-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    .feature-grid-child {
+        width: 400px;
+    }
+
+    .city-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        justify-content: center;
+        gap: 10px;
+    }
+    .city-image{
+        width: 269px;
+        height: auto;}
+    .city-text{
+        width: 269px;
+        height: auto;
+    }
+    .city-name {
+        font-size: 16px;
+        /* width: 269px;
+        height: auto; */
+    }
+
+    .city-button {
+        padding: 5px;
+    }
+
+    .offers-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        row-gap: 30px;
+
+
+    }
+
+    .inner-offer {
+        justify-content: center;
+        border-radius: 15px;
+        border: black 1px solid;
+        width: 255px;
+        height: auto;
+    }
+
+    .coming-soon-cities-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+
+    .coming-soon-cities {
+        max-width: 300px;
+
+    }
+
+    .coming-soon-cities-img {
+        max-width: 150px;
+        min-height: 150px;
+        margin-left: 70px;
+    }
+
+    .coming-soon-cities-name {
+        width: 100px;
+    }
+
+    .contact-grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        /* justify-content: center; */
+    }
+
+    .maps {
+        width: 100%;
+        height: 300px;
+
+    }
+
+    .form-color {
+        width: 100%;
+        height: 400px;
+    }
+
+    .form {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact-lable {
+        width: 150px;
+        padding: 2px;
+    }
+
+    .contact-input {
+        width: 300px;
+        min-height: 20px;
+    }
+
+    .footer-grid {
+
+        max-width: 700px;
+        max-height: 700px;
+        padding: 30px 20px;
+    }
+
+    .footer-titles {
+        font-size: 10px;
+    }
+
+    .footer-text {
+        font-size: 10px;
+    }
+
+    .social-icon {
+        font-size: 10px;
+        padding: 20px;
+    }
+
+    .social-media-grid {
+        justify-content: space-around;
+        padding-top: 10px;
+        row-gap: 5px;
+        column-gap: 5px;
+    }
+
+    .social-media-grid svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .search-bar {
+        width: 300px;
+        height: 30px;
+    }
+
+    .search-bar-button {
+        height: 30px;
+    }
+
+    .nav-l {
+        font-size: 15px;
+        padding: 12px;
+        margin-top: 8px;
+    }
+
+    .nav-link-text {
+        font-size: 15px;
+    }
+
+    .nav-r {
+        padding: 0px 7px;
+        margin-top: 2px;
+    }
+
+    .youtube-video {
+        width: 100%;
+        height: auto;
+    }
+
+    #featured {
+        max-width: 60%;
+        max-height: 200px;
+    }
+
+    #slide-wrapper {
+        max-width: 380px;
+        height: 150px;
+        max-height: 140px;
+    }
+
+    .thumbnail {
+        object-fit: cover;
+        max-width: 100px;
+        max-height: 600px;
+    }
+
+    .arrow {
+        width: 25px;
+        height: 73px;
+    }
+
+    .contact-button {
+        width: 300px;
+    }
+
+}
+
+
+
+@media (max-width:600px) {
+    .footer-size-changer {
+        width: auto;
+        max-width: 100px;
+    }
+}
+
+@media (max-width:518px) {
+    .feature-grid-child {
+        width: 270px;
+    }
+
+    .coming-soon-cities {
+        max-width: 200px;
+
+    }
+
+    .coming-soon-cities-img {
+        max-width: 100px;
+        min-height: 100px;
+        margin-left: 50px;
+    }
+
+    .coming-soon-cities-name {
+        width: 100px;
+        font-size: 13px;
+    }
+
+    .coming-soon-cities-p {
+        font-size: 13px;
+    }
+
+    .search-bar {
+        width: 200px;
+        height: 25px;
+        font-size: 13px;
+    }
+
+    .search-bar-button {
+        height: 25px;
+        font-size: 13px;
+        width: 100px;
+    }
+
+    .footer-grid {
+
+        max-width: 700px;
+        max-height: 700px;
+        margin: auto;
+
+    }
+
+    .main-about-grid p {
+        font-size: 10px;
+    }
+
+    .svg-about {
+        margin-top: 20px;
+
+    }
+
+    .bi-cart-dash {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+@media (max-width:425px) {
+    #slide-wrapper {
+        max-width: 250px;
+    }
+
+    .city-image {
+        width: 150px;
+    }
+
+    .city-text {
+        width: 150px;
+    }
+
+    .city-name {
+        font-size: 12px;
+    }
+
+    .city-button {
+        width: 65%;
+    }
+    #featured {
+        max-width: 90%;
+    }
+    .nav-r {
+        padding: 0px 3px;
+    }
+    .nav-link-text {
+        font-size: 11px;
+    }
+    .nav-l {
+        margin-top: 0px;
+    }
+    .nav-r-containers {
+        margin-top: 4px;
+    }
+}

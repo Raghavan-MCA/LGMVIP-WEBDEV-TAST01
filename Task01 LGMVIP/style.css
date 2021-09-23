@@ -1,0 +1,590 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Padauk', sans-serif;
+}
+.nav-r{
+    padding: 0px 15px;
+    display: inline-block;
+    margin-top: 5px;
+    color: #ffffff;
+    text-shadow: 1px 2px 6px #000000;
+
+}
+.nav-l{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 2px 6px #000000;
+    margin-top: 12px;
+}
+
+.nav-link-text{
+  text-decoration: none;
+  color: white;
+}
+.nav-link-text:hover{
+  color: white;
+}
+.nav-r-containers{
+    display: inline-block;
+    float: right;
+    margin-top: 15px;
+   
+    
+}
+.nav-l-containers{
+    display: inline-block;
+    float: left;
+    text-shadow: 3px 3px 7px #000000ad;
+    color: #ffffff; 
+}
+.nav-float{
+    position: absolute; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.carousel-item {
+    width: auto;
+    max-height: 568px;
+    /* background-color: rgb(255, 255, 255); */
+    /* opacity: 50%; */
+}
+
+.carousel-control-prev {
+  display: none!important;
+}
+
+.carousel-control-next {
+  display: none!important;
+}
+.carousel-caption h5{
+  text-shadow: 5px 6px 7px #000000;
+  
+}
+.carousel-caption p{
+  text-shadow: 5px 6px 7px #000000;
+}
+/* ############################################################################### */
+.welcome{
+    
+    
+    display: flex;
+    justify-content: center;
+    
+    
+    padding: 20px;
+}
+ .welcome-child{
+    width: 50%;
+    height: auto;  
+    
+}
+.intro{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-child{
+    width: 70%;
+    height: auto;
+}    
+
+.welcome-title{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Signika Negative', sans-serif;
+    
+}
+
+.welcome p{
+    text-align: center;
+    padding: 5px;
+}
+.feature-grid{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    column-gap: 30px;
+    border-bottom: 1px solid black;
+    padding: 30px;
+    margin-top: 50px;   
+}
+.svg-controler{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.featuer-controler{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+.feature-grid-child{
+    text-align: center;
+    
+    height: auto;
+    padding: 20px;
+    border: black 1px solid;
+    border-radius: 15px;
+    width: 260px;
+    
+}
+
+.main-about-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.main-about-grid p{
+    display: inline-block;
+    padding: 20px;
+
+
+}
+
+.svg-about{
+    opacity: 50%;
+}
+
+.welcome-title{
+    margin-top: 30px;
+    
+    
+}
+/* ###################################################################################### */
+
+.offers-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-bottom: 5px;
+    
+}
+.inner-offer2{
+  
+  border-left: black 1px solid;
+  border-right: #000000 1px solid;
+}
+.inner-offer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content:space-between;
+    padding: 10px;
+    width: 260px;
+    height: auto;
+}
+.inner-offer h4{
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.box-sizing{
+    max-width: 200px;
+    min-height: 180px;
+ 
+}
+
+.box-sizing h3{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+
+
+
+/* ########################################################### */
+
+.city-title{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+.city-grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto; 
+  margin-top: 40px;
+}
+
+.city-image{
+  width: 269px;
+  height: auto;
+  background-color:rgb(187, 238, 245);
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.city-text{
+  background-color: rgb(74, 162, 173);
+  border: 1px solid black;
+  
+}
+
+.city-name{
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.city-button{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  padding: 5px;
+  margin: 10px auto;
+  background:green;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px black solid;
+
+}
+
+.city-button:hover{
+  background:green;
+  color: white;
+  
+  
+  box-shadow: 5px 5px 5px black;
+  
+}
+
+
+
+/* #################################################### */
+
+.youtube-video{
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.video-trailer{
+  background-color: teal;
+  padding: 20px;
+ 
+}
+
+.video-trailer .welcome-title{
+  margin-top: 5px;
+  color: white;
+
+}
+.youtube-frame{
+  border-radius: 10px;
+}
+
+/* ################################################# */
+.category-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.category-text{
+  text-align: center;
+  font-size: 10px;
+}
+
+.category-grid{
+  display: grid;
+  grid-column: 3;
+  grid-template-columns: 
+  auto auto auto;
+  justify-content: space-around;
+}
+
+.category-img{
+  border-radius: 50%;
+  width: 100px;
+  padding: 10px;
+}
+
+/* ############################################################# */
+
+.near-buy-review{
+  background-color: teal;
+  
+  
+  
+}
+.welcome-color{
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.review-image-flex{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#featured{
+    max-width:80%;
+    max-height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.thumbnail{
+    object-fit: cover;
+    max-width: 130px;
+    max-height: 700px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin: 5px;
+
+
+}
+
+.thumbnail:hover{
+    opacity:1;
+    transform: scale(2);
+}
+
+
+
+#slide-wrapper{
+    max-width: 800px;
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 150px;
+    align-items: center;
+}
+
+#slider{
+    width: 900rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+}
+
+#slider::-webkit-scrollbar {
+  display: none;
+}
+
+.arrow{
+    width: 30px;
+    height: 87px;
+    cursor: pointer;
+    transition: .3s;
+   background-color: #000000;
+}
+.arrow:hover{
+  background-color: rgb(22, 20, 20);
+}
+
+/* ################################################################### */
+
+.newsletter-img{
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+}
+.search-bar{
+  width: 500px;
+  height:40px;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+  border: none;
+
+}
+
+
+.search-bar-text{
+  text-align: center;
+  padding: 20px;
+  color: white;
+  padding-top: 0px;
+  font-family: 'Signika Negative', sans-serif;
+  padding-bottom: 4px;
+}
+.search-bar-button{
+  width: 100px;
+  height: 40px;
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  background-color: rgb(251, 255, 34);
+}
+.search-bar-button:hover{
+  background-color: rgb(223, 226, 50);
+}
+.searchbar-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.newsletter-search-sec {
+  position: relative;
+}
+
+.newsletter-search{
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -46%);
+}
+
+/* ################################################################### */
+.contact-grid{
+  display: grid;
+  /* width: 500px;
+  height: auto; */
+  grid-template-columns: auto auto;
+  
+
+}
+.contact-title{
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+.contact-input{
+  display: block;
+  min-width: 300px;
+  max-height: 200px;
+  outline: none;
+}
+.contact-input:hover{
+  border: 2px black solid;
+}
+.contact-lable{
+  padding:  10px 10px 10px 0px;
+  color: white;
+}
+.form{
+  display: flex;
+  justify-content: center;
+}
+.maps{
+  width: 100%;
+  height: 100%;
+  
+}
+.form-color{
+  background-color: teal;
+}
+
+.contact-button{
+  width: 300px;
+  height: 40px;;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background-color: rgb(251, 255, 34);
+  
+}
+.contact-button:hover{
+  background-color: rgb(223, 226, 50);
+}
+
+
+  
+/* #################################################################### */
+.coming-soon-cities-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center; 
+  /* min-width: 350px; */
+  margin-bottom: 20px;
+  
+  
+
+}
+.coming-soon-cities{
+  display: grid;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  max-width: 250px;
+  margin: 10px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+
+}
+.coming-soon-cities-name{
+  
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.coming-soon-cities-p{
+  display: inline-block;
+  text-align: center;
+  font-size: smaller;
+  margin-bottom: 10px;
+}
+.coming-soon-cities-img{
+  max-width: 200px;
+  min-height: 200px;
+  margin-left: 30px;
+}
+
+/* ################################################################################ */
+.footer-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  /* min-width: 500px; */
+  padding: 50px 30px;
+  background-color: #d4d4d4;
+}
+.social-media-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-column: 2;  */
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 10px;
+
+
+}
+.social-icon{
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-titles{
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+}
+.footer-text{
+  margin: 0px;
+  text-align: center;
+}
+
+.footer-size-changer {
+  width:200px;
+}
